@@ -1,0 +1,13 @@
+# Don't commit stray APKs, but DO ship the single published beta build
+*.apk
+!bull88-protocol-beta.apk
+*.aab
+
+# Never commit signing material
+*.jks
+*.keystore
+keystore.properties
+
+# OS noise
+.DS_Store
+Thumbs.db
