@@ -26,6 +26,43 @@ Charles Schwab developer API app and (optionally) your own Gemini, FRED, and
 Finnhub keys. Nothing is shipped or shared by us — your credentials and data live
 on your device. See [PRIVACY.md](PRIVACY.md) for exactly what is stored where.
 
+## What it does
+
+Bull88 Protocol is a decision-support cockpit for selling options premium —
+cash-secured puts (CSPs) and covered calls (CCs). It continuously evaluates your
+open positions and watchlist with a **proprietary multi-factor engine** and tells
+you, in plain terms, what to do next.
+
+- **Scan** — ranks option candidates per symbol using a composite market-regime
+  score (momentum, valuation, fear/greed, signal coherence), tuning how far
+  out-of-the-money to sell, the expiration window, and position size to the
+  conditions.
+- **Manage** — the roll engine scores every open position and surfaces a clear
+  **HOLD / ROLL / REVIEW** call. Its priority is simple to state even though the
+  exact math isn't published: **capture profit early and cap losses** — roll
+  winners to lock gains, and roll defensively to guard against assignment and
+  gap-downs, always respecting your cost basis on covered calls.
+- **Journal** — a wheel-aware journal tracks every position, roll, and close,
+  with cost-basis and realized P/L.
+
+> The factors above are what the engine weighs; the exact thresholds, regime
+> bands, and evaluation order are proprietary and intentionally not published.
+
+## Features
+
+- HMAI market-regime scanner for CSP and covered-call candidates (including
+  deep-ITM downside-protection writes)
+- Proprietary **roll engine** — HOLD / ROLL / REVIEW decisions, with the key
+  reason shown on each position
+- 5-tier roll taxonomy that prioritizes **capturing profit and capping losses**
+- Wheel-aware journal + closed-position ledger with cost-basis tracking
+- Hedge ledger (tail-risk insurance) with live evaluation
+- Volatility-climate gauge for premium-selling conditions
+- Monthly analyst report (positions, P/L, signal history) you can export
+- Optional AI trade-journal critic (your own Gemini key)
+- Optional encrypted **Google Drive backup** of your data
+- Biometric lock · bring-your-own-keys · your data stays on your device
+
 ## Requirements
 
 - Android **8.0+** (API 26 or newer).
@@ -52,7 +89,7 @@ on your device. See [PRIVACY.md](PRIVACY.md) for exactly what is stored where.
 
 ## Latest release
 
-**v9.6.1 (beta)** — the single newest build is the
+**v9.6.2 (beta)** — the single newest build is the
 [`bull88-protocol-beta.apk`](bull88-protocol-beta.apk) in this repo. Only the
 newest beta is supported at a time; see commit history for what changed.
 
