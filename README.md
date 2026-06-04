@@ -91,7 +91,7 @@ you, in plain terms, what to do next.
 
 ## Latest release
 
-**v9.6.2 (beta)** — the single newest build is the
+**v1.0.0-beta** — the single newest build is the
 [`bull88-protocol-beta.apk`](bull88-protocol-beta.apk) in this repo. Only the
 newest beta is supported at a time; see commit history for what changed.
 
