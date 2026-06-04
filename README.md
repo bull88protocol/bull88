@@ -82,10 +82,12 @@ you, in plain terms, what to do next.
 4. On first launch, follow the in-app **Getting Started** guide to add your
    Schwab API credentials.
 
-> **Cloud backup during beta:** the optional Google-Drive backup is limited to
-> approved beta testers while the app awaits Google verification. If backup
-> reports an access error, you're not on the tester list yet — it becomes
-> available to everyone with the Play Store release.
+> **Cloud backup during beta — requesting access.** The optional Google-Drive
+> backup is limited to approved testers while the app awaits Google verification.
+> To be added, email **sunny@bull88protocol.com** from the Google account you'll
+> use, with a one-line note (e.g. *"Requesting Bull88 beta tester access"*).
+> Cloud backup becomes available to everyone with the Play Store release; until
+> then, an access error just means your account isn't on the tester list yet.
 
 ## Latest release
 
@@ -93,15 +95,19 @@ you, in plain terms, what to do next.
 [`bull88-protocol-beta.apk`](bull88-protocol-beta.apk) in this repo. Only the
 newest beta is supported at a time; see commit history for what changed.
 
-## Support
+## Support & links
 
 This is an unsupported beta — there's **no guarantee of updates, fixes, or
 support**. Issues are appreciated but not guaranteed a response. The supported,
 updated version will be the upcoming Play Store release.
+
+- Website: **[www.bull88protocol.com](https://www.bull88protocol.com)**
+- Beta tester access / questions: **sunny@bull88protocol.com**
 
 ## Legal
 
 - [Terms of Use / EULA](TERMS.md)
 - [Privacy Policy](PRIVACY.md)
 
-© CoinTranscend. "Bull88 Protocol" and related marks are property of CoinTranscend.
+© CoinTranscend · [www.bull88protocol.com](https://www.bull88protocol.com) ·
+"Bull88 Protocol" and related marks are property of CoinTranscend.
