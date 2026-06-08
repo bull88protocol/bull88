@@ -63,6 +63,38 @@ you, in plain terms, what to do next.
 - Optional encrypted **Google Drive backup** of your data
 - Biometric lock · bring-your-own-keys · your data stays on your device
 
+## How it came together
+
+Bull88 Protocol has been built and refined over a long series of iterations. Broadly,
+in the order it grew:
+
+- **Core cockpit** — an options scanner with a market-regime score, a cash-secured-put
+  journal, biometric lock, and a macro dashboard.
+- **Roll engine & taxonomy** — position management that surfaces clear HOLD / ROLL /
+  REVIEW calls, with a multi-tier roll taxonomy focused on capturing profit and capping
+  losses.
+- **Covered calls** — covered-call scanning and journaling, plus pro-trader signal
+  triggers (earnings proximity, volatility shocks, momentum shifts).
+- **Fundamentals & watchlist** — earnings/dividend awareness, fundamentals lookups, a
+  watchlist, and forward-looking forecasts.
+- **The wheel, end-to-end** — a wheel-aware state machine with cost-basis tracking
+  across assignment and recovery.
+- **AI journal critic** — an optional behavioral review of your trade journal (bring
+  your own AI key).
+- **Risk layer** — concentration awareness, a tail-risk hedge advisor, portfolio-stress
+  estimation, and a first-class hedge ledger with live evaluation.
+- **Volatility climate** — a premium-selling climate gauge from volatility, breadth, and
+  macro inputs.
+- **Outcome calibration & reporting** — a signal-outcome ledger that shows how past
+  triggers actually resolved, plus an exportable monthly analyst report.
+- **Backup & onboarding** — a first-run setup guide and optional encrypted
+  backup/restore to your own Google Drive.
+- **Public beta** — privacy/IP hardening, a selectable data-source layer, and release
+  signing for distribution.
+
+> This reflects the breadth of what's been built over time; the exact strategy
+> thresholds, regime bands, and evaluation logic remain proprietary (see *What it does*).
+
 ## Requirements
 
 - Android **8.0+** (API 26 or newer).
