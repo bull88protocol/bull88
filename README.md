@@ -123,7 +123,7 @@ in the order it grew:
 
 ## Latest release
 
-**v1.0.0-beta** — the single newest build is the
+**v1.0.1-beta** — the single newest build is the
 [`bull88-protocol-beta.apk`](bull88-protocol-beta.apk) in this repo. Only the
 newest beta is supported at a time; see commit history for what changed.
 
