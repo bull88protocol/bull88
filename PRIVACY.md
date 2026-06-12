@@ -1,6 +1,6 @@
 # Privacy Policy — Bull88 Protocol
 
-**Last updated: 2026-06-03**
+**Last updated: 2026-06-12**
 
 This Privacy Policy explains how the **Bull88 Protocol** application ("the App"),
 provided by **CoinTranscend** ("we", "us"), handles your data. We designed the
@@ -30,6 +30,14 @@ Android's EncryptedSharedPreferences (AES-256):
 
 These never leave your device except as described below.
 
+**Report and log files you generate are stored unencrypted.** Monthly activity
+reports and scan logs are written as plain-text files to your device's shared
+Documents folder (`Documents/Bull88`; on Android 8–9, to the App's own storage
+folder) so you can open, share, or analyze them yourself. These files contain
+your trading history and, like any file in shared storage, can be read by other
+apps you have granted file access. You can delete them at any time with a file
+manager.
+
 ## 3. Data you send to third parties (using your own keys)
 When you use features that require them, the App connects **directly** from your
 device to these third parties, authenticated with **your own** keys/credentials.
@@ -49,7 +57,9 @@ If you choose to use cloud backup, the App uploads a snapshot of your **non-secr
 data** — trading journal, closed ledger, hedge entries, trigger history,
 watchlist, standing hedge, and climate reports — to **your own Google Drive's
 hidden app-data folder**. This space is private to the App and to your Google
-account; we have no access to it.
+account; we have no access to it. The snapshot is stored as plain JSON — it is
+protected by Google Drive's own at-rest encryption and your Google account
+security, but is not additionally encrypted by the App.
 
 **Your secrets are never backed up:** your Schwab credentials and OAuth tokens
 and all API keys stay only on your device and must be re-entered on a new device.
@@ -65,7 +75,8 @@ The App is not directed to children and is intended for adults managing their ow
 brokerage accounts.
 
 ## 7. Security
-Local data is encrypted at rest; all network traffic uses HTTPS. No method of
+Local app data is encrypted at rest (report/log files you export to Documents
+are plain text — see §2); all network traffic uses HTTPS. No method of
 storage or transmission is 100% secure, and you are responsible for the security
 of your device and your accounts.
 
